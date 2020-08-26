@@ -1,0 +1,14 @@
+* {
+    .uk-navbar-nav > li > a, .uk-logo {
+        font-family: 'Lexend Deca', sans-serif !important;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        color: #000;
+    }
+}
+
+html, body {
+    height: 100%;
+}
+
+@import "./home.scss";
