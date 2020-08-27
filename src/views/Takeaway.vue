@@ -213,9 +213,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 .takeaway {
-  height: 100%;
+  height: calc(100vh - 160px);
   .takeaway-panels {
-    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -262,9 +261,10 @@ export default {
 
 @media (max-width: 440px) {
   .takeaway {
-    height: 70vh;
+    height: calc(100vh - 160px);
     .takeaway-panels {
       padding: 0;
+      height: 100%;
 
       svg {
         width: 65px;
