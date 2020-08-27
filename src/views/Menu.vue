@@ -9,7 +9,7 @@
         <div>
           <ul class="menu-list">
             <li>
-              <span uk-icon="icon: star"></span> Basic Italian Pasta
+              <span uk-icon="icon: star"></span> basic italian pasta
               <span>
                 <font-awesome-icon icon="leaf" />
               </span>
@@ -18,46 +18,46 @@
               >soft tomato cream sauce, mozzarella, pesto, cherry tomatoes, basil, rucola, pine nuts</div>
             </li>
             <li>
-              Verdura Light
+              verdura light
               <div
                 class="what"
               >chicken, pesto, cucumber, paprika, sun dried tomatoes, basil, rucola, pine nuts</div>
             </li>
             <li>
-              Popup-Parma
+              popup-parma
               <div
                 class="what"
               >parmaham, pesto, mozzarella, cucumber, sun dried tomatoes, basil, rucola, pine nuts</div>
             </li>
             <li>
-              Luca-Love
+              luca-love
               <div
                 class="what"
               >mascarpone sauce, bacon, pesto, sun dried tomatoes, basil, rucola, pine nuts</div>
             </li>
             <li>
-              Spicy
+              spicy
               <span>
                 <font-awesome-icon icon="fire" />
               </span>
               <div class="what">diabolique sauce, bacon, pesto</div>
             </li>
             <li>
-              Heaven
+              heaven
               <div class="what">carbonara, meatballs, mozzarella</div>
             </li>
             <li>
-              Beach
+              beach
               <div
                 class="what"
               >mascarpone sauce, smoked salmon, dille, cucumber, mozzarella, cherry tomatoes</div>
             </li>
             <li>
-              Sunny
+              sunny
               <div class="what">mascarpone sauce, chicken, sun dried tomatoes</div>
             </li>
             <li>
-              Popeye
+              popeye
               <div class="what">spinach cream sauce, bacon, mozzarella, rucola</div>
             </li>
           </ul>
@@ -71,18 +71,18 @@
         <div>
           <ul class="menu-list">
             <li>
-              Roma Bologna
+              roma bologna
               <div class="what">bolognese and carbonara sauce</div>
             </li>
             <li>
-              Devil Cheese
+              devil cheese
               <span>
                 <font-awesome-icon icon="fire" />
               </span>
               <div class="what">diabolique and 4-fromaggi sauce</div>
             </li>
             <li>
-              Devil Cheese Veggie
+              devil cheese veggie
               <span>
                 <font-awesome-icon icon="fire" />
               </span>
@@ -92,14 +92,14 @@
               <div class="what">arrabiata and 4-fromaggi sauce</div>
             </li>
             <li>
-              Tasty Veggie
+              tasty veggie
               <span>
                 <font-awesome-icon icon="leaf" />
               </span>
               <div class="what">pomodoro and mascarpone sauce</div>
             </li>
             <li>
-              Whatever you want!
+              whatever you want!
               <div class="what">only in physical stores</div>
             </li>
           </ul>
@@ -113,11 +113,11 @@
         <div>
           <ul class="menu-list choose">
             <li>
-              1// Choose the pasta, choose the size
+              1// choose the pasta, choose the size
               <div class="what">normal, whole grain - small €5.5, medium €7, large €8.5</div>
             </li>
             <li>
-              2// Choose the sauce
+              2// choose the sauce
               <div class="what">
                 <ul class="menu-list sauces">
                   <li>bolognese</li>
@@ -169,7 +169,7 @@
               </div>
             </li>
             <li>
-              3// Extra meat/fish or veggie? (+€1/€2)
+              3// extra meat/fish or veggie? (+€1/€2)
               <div class="what">
                 <span class="subcat">meat</span>: bacon (+€1), parmaham (+€1), chicken (+€2), meatballs (+€2)
                 <br />
@@ -179,13 +179,13 @@
               </div>
             </li>
             <li>
-              4// Extra toppings? (+€0.5)
+              4// extra toppings? (+€0.5)
               <div
                 class="what"
               >cherry tomatoes, sun dried tomatoes, pine nuts, rucola, cucumber, paprika, crusty onion, parmesan cheese, emmental cheese</div>
             </li>
             <li>
-              5// Choose the cheese
+              5// choose the cheese
               <div class="what">parmesan cheese, emmental cheese</div>
             </li>
           </ul>
