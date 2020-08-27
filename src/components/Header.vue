@@ -549,7 +549,7 @@
                 <router-link :to="`/contact`" class="nav-link">Contact</router-link>
               </li>
               <li class>
-                <router-link :to="`/b-pure`" class>B-PURE</router-link>
+                <router-link :to="`/b-pure`" class="nav-link">B-PURE</router-link>
               </li>
             </ul>
           </div>
