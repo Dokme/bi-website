@@ -4,8 +4,7 @@ import Home from "../views/Home.vue";
 
 Vue.use(VueRouter);
 
-const routes = [
-  {
+const routes = [{
     path: "/",
     name: "Home",
     component: Home,
@@ -21,7 +20,7 @@ const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () =>
-      import(/* webpackChunkName: "about" */ "../views/Shops.vue")
+      import( /* webpackChunkName: "about" */ "../views/Shops.vue")
   },
   {
     path: "/menu",
@@ -30,7 +29,7 @@ const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () =>
-      import(/* webpackChunkName: "about" */ "../views/Menu.vue")
+      import( /* webpackChunkName: "about" */ "../views/Menu.vue")
   },
   {
     path: "/takeaway",
@@ -40,7 +39,7 @@ const routes = [
       requiresHeader: true
     },
     component: () =>
-      import(/* webpackChunkName: "new" */ "../views/Takeaway.vue")
+      import( /* webpackChunkName: "new" */ "../views/Takeaway.vue")
   },
   {
     path: "/about",
@@ -50,7 +49,7 @@ const routes = [
       requiresHeader: true
     },
     component: () =>
-      import(/* webpackChunkName: "new" */ "../views/About.vue")
+      import( /* webpackChunkName: "new" */ "../views/About.vue")
   },
   {
     path: "/contact",
@@ -60,7 +59,17 @@ const routes = [
       requiresHeader: true
     },
     component: () =>
-      import(/* webpackChunkName: "new" */ "../views/Contact.vue")
+      import( /* webpackChunkName: "new" */ "../views/Contact.vue")
+  },
+  {
+    path: "/b-pure",
+    name: "b-pure",
+    meta: {
+      requiresFooter: true,
+      requiresHeader: true
+    },
+    component: () =>
+      import( /* webpackChunkName: "new" */ "../views/B-Pure.vue")
   }
 ];
 
